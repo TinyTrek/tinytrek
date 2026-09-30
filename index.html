@@ -1,0 +1,187 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="theme-color" content="#070907">
+  <meta name="description" content="Tiny Trek Studio creates games, interactive experiences, prototypes, and ports for museums, brands, and teams.">
+  <title>Tiny Trek Studio — Games & Interactive Experiences</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Outfit:wght@300;400;500;600;700&family=Space+Mono:wght@400;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="css/styles.css">
+</head>
+<body>
+  <div class="page-transition" aria-hidden="true"><span>TINY TREK STUDIO</span></div>
+  <div class="cursor-glow" aria-hidden="true"></div>
+  <div class="site-noise" aria-hidden="true"></div>
+
+  <header class="site-header" id="siteHeader">
+    <nav class="nav-shell" aria-label="Primary navigation">
+      <div class="nav-side nav-left">
+        <a href="#home">Home</a>
+        <a href="#services">Services</a>
+      </div>
+      <a class="brand-lockup" href="#home" aria-label="Tiny Trek Studio home">
+        <span class="brand-mark"><img src="assets/images/tiny-trek-logo.png" alt="Tiny Trek Studio dinosaur mascot"></span>
+        <span class="brand-wordmark"><strong>TINY TREK</strong><small>STUDIO</small></span>
+      </a>
+      <div class="nav-side nav-right">
+        <a href="#projects">Projects</a>
+        <a href="#about">About Us</a>
+        <a href="#contact">Contact Us</a>
+      </div>
+      <button class="mobile-toggle" id="mobileToggle" aria-label="Open menu" aria-expanded="false"><span></span><span></span><span></span></button>
+    </nav>
+    <div class="mobile-menu" id="mobileMenu">
+      <a href="#home">Home</a>
+      <a href="#services">Services</a>
+      <a href="#projects">Projects</a>
+      <a href="#about">About Us</a>
+      <a href="#contact">Contact Us</a>
+    </div>
+  </header>
+
+  <main>
+    <section class="hero" id="home">
+      <video class="hero-video" autoplay muted loop playsinline poster="assets/images/shark-01.png">
+        <source src="assets/video/shark-experience-01.mp4" type="video/mp4">
+      </video>
+      <div class="hero-overlay"></div>
+      <div class="hero-grid" aria-hidden="true"></div>
+      <div class="hero-content shell">
+        <div class="hero-copy reveal">
+          <p class="eyebrow"><span></span> Independent game & interactive studio</p>
+          <h1>WE BUILD WORLDS<br><em>PEOPLE WANT TO STEP INTO.</em></h1>
+          <p class="hero-lede">Tiny Trek Studio creates games, interactive experiences, prototypes, and ports for museums, brands, and teams that want something people can actually play.</p>
+          <div class="hero-actions">
+            <a class="button button-primary" href="#contact">Start a Project <span>↗</span></a>
+            <a class="button button-ghost" href="#projects">See Our Work <span>↓</span></a>
+          </div>
+        </div>
+        <div class="hero-side reveal" data-delay="180">
+          <p>FEATURED RELEASE</p>
+          <a class="mini-project page-link" href="project-shark.html">
+            <strong>Interactive Shark Experience</strong>
+            <span>North Carolina Aquariums</span>
+          </a>
+        </div>
+      </div>
+      <a class="scroll-cue" href="#featured" aria-label="Scroll to featured project"><span class="scroll-line"></span><small>SCROLL TO EXPLORE</small></a>
+    </section>
+
+    <section class="featured-project section-pad" id="featured">
+      <div class="shell">
+        <div class="featured-layout">
+          <div class="featured-copy reveal">
+            <p class="eyebrow">North Carolina Aquariums</p>
+            <h2>INTERACTIVE<br><span>SHARK EXPERIENCE</span></h2>
+            <p>An immersive interactive game created for a museum setting, bringing a real-time underwater environment to guests through a large-format digital experience.</p>
+            <div class="project-meta-row">
+              <span>Interactive Experience</span><span>Museum Installation</span><span>Game Development</span>
+            </div>
+            <a class="text-link page-link" href="project-shark.html">View Case Study <b>↗</b></a>
+          </div>
+          <a class="featured-media page-link reveal" href="project-shark.html" aria-label="Open the Interactive Shark Experience case study">
+            <img src="assets/images/shark-03.png" alt="Underwater scene from the Interactive Shark Experience">
+            <video muted loop playsinline preload="metadata" poster="assets/images/shark-03.png"><source src="assets/video/shark-experience-02.mp4" type="video/mp4"></video>
+            <div class="media-scan"></div>
+            <div class="media-caption"><span>PLAY PREVIEW</span><b>↗</b></div>
+          </a>
+        </div>
+      </div>
+    </section>
+
+    <section class="services section-pad" id="services">
+      <div class="shell">
+        <div class="section-heading reveal">
+          <div><h2>FROM FIRST PROTOTYPE<br>TO <span>PLAYABLE RELEASE.</span></h2></div>
+          <p>We are a small founding team built to move quickly, communicate directly, and plug into projects wherever hands-on development is needed.</p>
+        </div>
+        <div class="service-list">
+          <article class="service-row reveal"><div><h3>GAME DEVELOPMENT</h3><p>Full-cycle development support for interactive projects, from playable systems and implementation through polish and delivery.</p></div></article>
+          <article class="service-row reveal"><div><h3>INTERACTIVE EXPERIENCES</h3><p>Digital experiences for museums, exhibits, activations, and spaces where the audience should do more than just watch.</p></div></article>
+          <article class="service-row reveal"><div><h3>GAME PROTOTYPING</h3><p>Fast, focused prototypes that turn a concept into something testable so teams can validate the idea before scaling it.</p></div></article>
+          <article class="service-row reveal"><div><h3>GAME PORTING</h3><p>Development support for bringing an existing experience to new platforms, screen formats, and deployment environments.</p></div></article>
+        </div>
+      </div>
+    </section>
+
+    <section class="trusted section-pad-sm" aria-labelledby="trusted-title">
+      <div class="shell">
+        <div class="trusted-heading reveal">
+          <p class="eyebrow" id="trusted-title">Our Team Has Worked With</p>
+          <span>Experience shaped across entertainment, education, and interactive production.</span>
+        </div>
+        <div class="trusted-grid">
+          <div class="trust-card reveal">NORTH CAROLINA<br>AQUARIUMS</div>
+          <div class="trust-card reveal">UNIVERSAL</div>
+          <div class="trust-card reveal">EA</div>
+          <div class="trust-card reveal">FIEA</div>
+        </div>
+      </div>
+    </section>
+
+    <section class="projects section-pad" id="projects">
+      <div class="shell">
+        <div class="section-heading project-heading reveal">
+          <div><h2>PROJECTS BUILT TO<br><span>BE EXPERIENCED.</span></h2></div>
+          <p>Hover over released work for a live preview. Confidential cards show how the portfolio will scale as new projects are added.</p>
+        </div>
+        <div class="project-filters reveal" role="group" aria-label="Filter projects">
+          <button class="filter-button active" data-filter="all">All</button>
+          <button class="filter-button" data-filter="games">Games</button>
+          <button class="filter-button" data-filter="multiplayer">Multiplayer</button>
+          <button class="filter-button" data-filter="pc">PC</button>
+          <button class="filter-button" data-filter="mobile">Mobile</button>
+        </div>
+        <div class="project-grid" id="projectGrid">
+          <a class="project-card released reveal page-link" href="project-shark.html" data-categories="games">
+            <div class="project-visual"><img src="assets/images/shark-02.png" alt="Interactive Shark Experience underwater gameplay scene"><video muted loop playsinline preload="metadata" poster="assets/images/shark-02.png"><source src="assets/video/shark-experience-01.mp4" type="video/mp4"></video><div class="project-badge">RELEASED</div></div>
+            <div class="project-info"><div><h3>Interactive Shark Experience</h3><p>North Carolina Aquariums</p></div><span>Interactive / Museum</span></div>
+          </a>
+          <article class="project-card confidential reveal" data-categories="games multiplayer pc"><div class="confidential-visual"><span class="confidential-code">TT_02</span><strong>CONFIDENTIAL</strong></div><div class="project-info"><div><h3>Coming Soon</h3><p>Confidential Project</p></div><span>Multiplayer / PC</span></div></article>
+          <article class="project-card confidential reveal" data-categories="games mobile"><div class="confidential-visual"><span class="confidential-code">TT_03</span><strong>CONFIDENTIAL</strong></div><div class="project-info"><div><h3>Coming Soon</h3><p>Confidential Project</p></div><span>Game / Mobile</span></div></article>
+          <article class="project-card confidential reveal" data-categories="pc"><div class="confidential-visual"><span class="confidential-code">TT_04</span><strong>CONFIDENTIAL</strong></div><div class="project-info"><div><h3>Coming Soon</h3><p>Confidential Project</p></div><span>Interactive / PC</span></div></article>
+          <article class="project-card confidential reveal" data-categories="games multiplayer mobile"><div class="confidential-visual"><span class="confidential-code">TT_05</span><strong>CONFIDENTIAL</strong></div><div class="project-info"><div><h3>Coming Soon</h3><p>Confidential Project</p></div><span>Multiplayer / Mobile</span></div></article>
+          <article class="project-card confidential reveal" data-categories="games pc"><div class="confidential-visual"><span class="confidential-code">TT_06</span><strong>CONFIDENTIAL</strong></div><div class="project-info"><div><h3>Coming Soon</h3><p>Confidential Project</p></div><span>Game / PC</span></div></article>
+        </div>
+      </div>
+    </section>
+
+    <section class="about section-pad" id="about">
+      <div class="shell about-grid">
+        <div class="about-media reveal"><img src="assets/images/shark-05.png" alt="Underwater environment from Tiny Trek Studio's shark project"><div class="about-logo-stamp"><img src="assets/images/tiny-trek-logo.png" alt=""><span>SMALL TEAM<br>BIG EXPERIENCES</span></div></div>
+        <div class="about-copy reveal">
+          <h2>SMALL TEAM.<br><span>BIG EXPERIENCES.</span></h2>
+          <p class="about-lede">Tiny Trek Studio is a small game development team focused on building polished interactive work without layers of unnecessary process.</p>
+          <p>We partner with clients and development teams to turn ideas into playable experiences—whether that means creating a museum installation, proving out a prototype, supporting production, or helping an existing game reach a new platform.</p>
+          <div class="about-points"><div><strong>DIRECT</strong><span>Work closely with the people building your project.</span></div><div><strong>PLAYABLE</strong><span>We prioritize getting ideas into hands early.</span></div><div><strong>FLEXIBLE</strong><span>Support that can fit a full project or one production need.</span></div></div>
+        </div>
+      </div>
+    </section>
+
+    <section class="contact section-pad" id="contact">
+      <div class="contact-backdrop" aria-hidden="true">LET'S BUILD IT</div>
+      <div class="shell contact-grid">
+        <div class="contact-copy reveal">
+          <h2>HAVE A PROJECT<br><span>IN MIND?</span></h2>
+          <p>Tell us what you are building, what stage it is in, and where you need help. This frontend form opens your email app with the message already prepared.</p>
+          <a class="contact-email" href="mailto:info@tinytrek.studio">info@tinytrek.studio <span>↗</span></a>
+        </div>
+        <form class="contact-form reveal" id="contactForm">
+          <div class="field-group full"><label for="contactReason">I want to...</label><select id="contactReason" name="subject" required><option value="Work With Tiny Trek Studio">Work on a project with Tiny Trek</option><option value="Project Proposal for Tiny Trek Studio">Propose a project</option><option value="Request a Quote from Tiny Trek Studio">Get a quote</option></select><small>Email subject: <span id="subjectPreview">Work With Tiny Trek Studio</span></small></div>
+          <div class="form-row"><div class="field-group"><label for="name">Name</label><input id="name" name="name" type="text" placeholder="Your name" required></div><div class="field-group"><label for="email">Email</label><input id="email" name="email" type="email" placeholder="you@company.com" required></div></div>
+          <div class="field-group full"><label for="company">Company / Organization</label><input id="company" name="company" type="text" placeholder="Optional"></div>
+          <div class="field-group full"><label for="message">Tell us about the project</label><textarea id="message" name="message" rows="6" placeholder="What are you making? What do you need help with?" required></textarea></div>
+          <button class="button button-primary form-submit" type="submit">Prepare Email <span>↗</span></button>
+          <p class="form-note" id="formNote" aria-live="polite">No backend required — your default email app will open with everything filled in.</p>
+        </form>
+      </div>
+    </section>
+  </main>
+
+  <footer class="site-footer"><div class="shell footer-grid"><a class="footer-brand" href="#home"><img src="assets/images/tiny-trek-logo.png" alt="Tiny Trek Studio"><div><strong>TINY TREK</strong><span>STUDIO</span></div></a><div class="footer-links"><a href="#services">Services</a><a href="#projects">Projects</a><a href="#about">About</a><a href="#contact">Contact</a></div><div class="footer-meta"><a href="mailto:info@tinytrek.studio">info@tinytrek.studio</a><span>© <span id="year"></span> Tiny Trek Studio</span></div></div></footer>
+  <script src="js/site.js"></script>
+</body>
+</html>
